@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/Tests/">
+    <Project Path="tests/FuturePrelude.Quartz.Tests/FuturePrelude.Quartz.Tests.csproj" Id="2f71b80c-44f9-4b56-8726-7edc313c986d" />
+  </Folder>
+  <Project Path="src/FuturePrelude.Quartz/FuturePrelude.Quartz.csproj" Id="763763fc-0fff-4c8a-a11c-dd09331d2966" />
+</Solution>

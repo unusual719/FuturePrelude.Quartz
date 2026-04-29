@@ -1,0 +1,17 @@
+*.md linguist-language=C#
+*.mdx linguist-language=C#
+*.ps1 linguist-language=C#
+*.yml linguist-language=C#
+*.html linguist-language=C#
+*.js linguist-language=C#
+*.tsx linguist-language=C#
+*.xml linguist-language=C#
+*.css linguist-language=C#
+
+# 所有代码统一为 CRLF（适合 Windows 团队）
+*.cs text eol=crlf
+*.csproj text eol=crlf
+*.sln text eol=crlf
+
+# 脚本用 LF（避免 bash 出问题）
+*.sh text eol=lf
