@@ -1,4 +1,4 @@
-﻿namespace FuturePrelude.Quartz;
+namespace FuturePrelude.Quartz;
 
 /// <summary> 时间间隔单位枚举 - 定义触发器的重复执行间隔单位 </summary>
 public enum IntervalUnit

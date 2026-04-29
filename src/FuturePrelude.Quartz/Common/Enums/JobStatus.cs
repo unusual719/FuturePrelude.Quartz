@@ -1,4 +1,4 @@
-﻿namespace FuturePrelude.Quartz;
+namespace FuturePrelude.Quartz;
 
 /// <summary> 任务状态 </summary>
 public enum JobStatus

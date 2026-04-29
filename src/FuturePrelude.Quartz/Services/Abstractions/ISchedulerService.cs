@@ -1,4 +1,4 @@
-﻿namespace FuturePrelude.Quartz;
+namespace FuturePrelude.Quartz;
 
 /// <summary> Scheduler 调度服务 </summary>
 public interface ISchedulerService

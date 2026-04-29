@@ -1,4 +1,4 @@
-﻿namespace FuturePrelude.Quartz;
+namespace FuturePrelude.Quartz;
 
 /// <summary> 任务运行时状态（基于 Quartz 运行时信息汇总） </summary>
 public class JobRuntimeState

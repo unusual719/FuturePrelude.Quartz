@@ -1,4 +1,4 @@
-﻿namespace FuturePrelude.Quartz;
+namespace FuturePrelude.Quartz;
 
 /// <summary> 登录服务定义 </summary>
 public interface IAuthService

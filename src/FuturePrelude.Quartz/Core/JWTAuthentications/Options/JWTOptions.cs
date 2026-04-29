@@ -1,4 +1,4 @@
-﻿namespace FuturePrelude.Quartz.Core;
+namespace FuturePrelude.Quartz.Core;
 
 /// <summary> JWT 配置选项 </summary>
 public class JWTOptions

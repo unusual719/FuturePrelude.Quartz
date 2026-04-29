@@ -1,4 +1,4 @@
-﻿namespace FuturePrelude.Quartz;
+namespace FuturePrelude.Quartz;
 
 /// <summary> HTTP 请求方式枚举 </summary>
 public enum HttpRequestMethod

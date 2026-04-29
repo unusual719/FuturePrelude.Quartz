@@ -1,4 +1,4 @@
-﻿namespace FuturePrelude.Quartz;
+namespace FuturePrelude.Quartz;
 
 /// <summary> 任务详情信息 </summary>
 [Table(Name = "SysJobDetail")]

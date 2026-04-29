@@ -1,4 +1,4 @@
-﻿namespace FuturePrelude.Quartz;
+namespace FuturePrelude.Quartz;
 
 /// <summary> 用于记录每个 HTTP 请求的执行时间 </summary>
 public class RequestTimingMiddleware

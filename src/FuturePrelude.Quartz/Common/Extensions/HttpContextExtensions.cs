@@ -1,4 +1,4 @@
-﻿namespace FuturePrelude.Quartz;
+namespace FuturePrelude.Quartz;
 
 /// <summary> <see cref="HttpContext" /> 拓展类 </summary>
 public static class HttpContextExtensions

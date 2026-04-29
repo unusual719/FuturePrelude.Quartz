@@ -1,4 +1,4 @@
-﻿namespace FuturePrelude.Quartz.Core;
+namespace FuturePrelude.Quartz.Core;
 
 /// <summary> JWT 服务注入拓展静态类 </summary>
 public static class JWTServiceCollectionExtensions

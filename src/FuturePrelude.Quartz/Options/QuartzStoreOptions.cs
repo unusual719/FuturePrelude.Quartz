@@ -1,4 +1,4 @@
-﻿namespace FuturePrelude.Quartz;
+namespace FuturePrelude.Quartz;
 
 /// <summary> Quartz.NET 选项配置 </summary>
 public class QuartzStoreOptions

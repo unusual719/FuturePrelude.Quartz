@@ -1,4 +1,4 @@
-﻿namespace FuturePrelude.Quartz.Controllers;
+namespace FuturePrelude.Quartz.Controllers;
 
 /// <summary> Development 开发测试服务 </summary>
 [Route("api/[controller]")]

@@ -1,4 +1,4 @@
-﻿using Polly;
+using Polly;
 using Polly.Contrib.WaitAndRetry;
 
 namespace FuturePrelude.Quartz;

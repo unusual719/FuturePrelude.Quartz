@@ -1,4 +1,4 @@
-﻿namespace FuturePrelude.Quartz.Core;
+namespace FuturePrelude.Quartz.Core;
 
 /// <summary> swagger 默认登录 </summary>
 

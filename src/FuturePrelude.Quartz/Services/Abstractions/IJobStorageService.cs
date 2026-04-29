@@ -1,4 +1,4 @@
-﻿namespace FuturePrelude.Quartz;
+namespace FuturePrelude.Quartz;
 
 /// <summary> JobStorage 服务定义 </summary>
 public interface IJobStorageService

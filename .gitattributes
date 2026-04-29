@@ -1,21 +1,68 @@
-*.md linguist-language=C#
-*.mdx linguist-language=C#
-*.ps1 linguist-language=C#
-*.yml linguist-language=C#
-*.html linguist-language=C#
-*.js linguist-language=C#
-*.tsx linguist-language=C#
-*.xml linguist-language=C#
-*.css linguist-language=C#
+###############################################################################
+# 统一规则（核心）
+###############################################################################
 
-* text=auto
+# 所有文本文件交给 Git 自动判断，并统一为 LF（跨平台最稳）
+* text=auto eol=lf
 
-# 所有代码统一为 CRLF（适合 Windows 团队）
-*.cs text eol=crlf
-*.csproj text eol=crlf
-*.sln text eol=crlf
+###############################################################################
+# C# / .NET 相关（明确指定，避免歧义）
+###############################################################################
 
-# 脚本用 LF（避免 bash 出问题）
-*.sh text eol=lf
+*.cs        text eol=lf
+*.csproj    text eol=lf
+*.sln       text eol=crlf
+*.props     text eol=lf
+*.targets   text eol=lf
+*.config    text eol=lf
+*.json      text eol=lf
+*.xml       text eol=lf
+*.yml       text eol=lf
+*.yaml      text eol=lf
 
-# * text=auto eol=lf
+###############################################################################
+# 脚本文件
+###############################################################################
+
+*.sh        text eol=lf
+*.bash      text eol=lf
+*.ps1       text eol=crlf
+*.cmd       text eol=crlf
+*.bat       text eol=crlf
+
+###############################################################################
+# 前端资源（如果有）
+###############################################################################
+
+*.js        text eol=lf
+*.ts        text eol=lf
+*.vue       text eol=lf
+*.css       text eol=lf
+*.scss      text eol=lf
+*.html      text eol=lf
+
+###############################################################################
+# 标记为二进制（禁止换行符处理）
+###############################################################################
+
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.ico       binary
+*.pdf       binary
+*.zip       binary
+*.dll       binary
+*.exe       binary
+
+###############################################################################
+# Git 特殊文件
+###############################################################################
+
+*.patch     text eol=lf
+*.diff      text eol=lf
+
+###############################################################################
+# 可选：忽略大小写差异（Windows 团队常用）
+###############################################################################
+# * text=auto eol=lf working-tree-encoding=UTF-8

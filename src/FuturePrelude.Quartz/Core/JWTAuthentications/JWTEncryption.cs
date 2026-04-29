@@ -1,4 +1,4 @@
-﻿using Microsoft.IdentityModel.JsonWebTokens;
+using Microsoft.IdentityModel.JsonWebTokens;
 using Microsoft.IdentityModel.Tokens;
 using StackExchange.Redis;
 using System.IdentityModel.Tokens.Jwt;

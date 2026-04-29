@@ -1,4 +1,4 @@
-﻿namespace FuturePrelude.Quartz.Core;
+namespace FuturePrelude.Quartz.Core;
 
 public class App
 {

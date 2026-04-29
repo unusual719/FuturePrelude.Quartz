@@ -1,4 +1,4 @@
-﻿namespace FuturePrelude.Quartz.Core;
+namespace FuturePrelude.Quartz.Core;
 
 /// <summary> 应用启动时自动注册中间件 </summary>
 /// <remarks> </remarks>
