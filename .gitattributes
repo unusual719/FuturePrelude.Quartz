@@ -8,6 +8,8 @@
 *.xml linguist-language=C#
 *.css linguist-language=C#
 
+* text=auto
+
 # 所有代码统一为 CRLF（适合 Windows 团队）
 *.cs text eol=crlf
 *.csproj text eol=crlf
@@ -15,3 +17,5 @@
 
 # 脚本用 LF（避免 bash 出问题）
 *.sh text eol=lf
+
+# * text=auto eol=lf

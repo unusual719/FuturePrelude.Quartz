@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 FuturePrelude.Quartz is an ASP.NET Core 10 Web API hosting the Quartz distributed job scheduler with JWT authentication. It provides HTTP endpoints to manage job scheduling with support for multiple database providers (MySQL, SQL Server, PostgreSQL, SQLite) and Redis for distributed caching/locking.
 
-## Build Commands
+## Build Commands1
 
 - `dotnet restore` — restore NuGet packages
 - `dotnet build FuturePrelude.Quartz.slnx -c Debug` — compile solution (use `-c Release` for deployments)
